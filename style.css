@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 10px;
 }
 
 h1 {
@@ -17,8 +18,18 @@ h1 {
 
 .firstone {
     display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 
 .first img {
     width: 50%;
+}
+
+.linkbtn {
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-image: linear-gradient(orange, red);
 }
