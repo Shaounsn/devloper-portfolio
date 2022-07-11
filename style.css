@@ -20,6 +20,7 @@ h1 {
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 20px;
 }
 
 .first img {
@@ -32,4 +33,11 @@ h1 {
     padding: 10px 30px;
     border-radius: 10px;
     background-image: linear-gradient(orange, red);
+}
+
+.second {
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
